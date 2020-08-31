@@ -9,7 +9,7 @@
                                                                <!--titre-->
       <h1 align="center"> Est-ce un <em class="bien">bien</em>? Est-ce un <em class="mal">mal</em>? Je ne sais pas. </h1>
                                                             <!--date - auteur-->
-      <h2> 11 mai 2016, Alexandre Gorius </h2>
+      <h2 align="center"> 11 mai 2016, Alexandre Gorius </h2>
                                                                <!--citation-->
    </header>
       <blockquote>
@@ -20,9 +20,9 @@
    <p>Dans la vie, il y a 4 types de personnes.
                                                             <!--tableaux-->
       <ul> 
-         <li>- les gens qui pense qu'Internet c'est le <strong class="bien">bien</strong>, </li>
-         <li>- les gens qui pensent qu'Internet c'est le <em class="mal">mal</em>,</li>
-         <li>- les gens qui pensent qu'Internet ce sont des chats,</li>
+         <li id="bien">- les gens qui pense qu'Internet c'est le <strong class="bien">bien</strong>, </li>
+         <li id="mal">- les gens qui pensent qu'Internet c'est le <em class="mal">mal</em>,</li>
+         <li id="chat">- les gens qui pensent qu'Internet ce sont des chats,</li>
          <li>- les gens qui n'y pensent pas. </li>
       </ul>   
       <hr>
@@ -30,7 +30,7 @@
                                                                <!--image-->
    <img src="main.jpeg" alt="une main tenant quelqu’un qui eclaire une piece"/ title="une main tenant quelqu’un qui eclaire une piece">
    <a href="https://gaite-lyrique.net/storage/2016/02/02/extra_2_160202_cover.jpg" target="blank">Ce qu ils ont trouvé</a>
-   <p> 
+   <p class="premier"> 
    Du point de vue de ce rocher sur Mars, rien ne se soucie de vos problèmes. Là haut, ça n’a pas d’importance, il n'y a aucun "problème", tout est comme cela doit être.
    Ici bas, la seule réalité qui soit est celle de notre conscience. Rien n’existe si la conscience ne le pense pas. Rien n’existe non plus si nos sens ne transmettent pas le message. Cela signifie que si nous sentons <strong class="strong">mal</strong> quelque chose, notre réalité change. C’est chose possible car notre perception est limitée: on ne peut pas voir à 360 degrés par exemple. Si nous pensons nos sensations d’une manière ou d’une autre, alors notre réalité change aussi en fonction de la manière. Ainsi, si nous pouvons autant changer notre réalité, alors rien n’est tangible.
    Il y a des preuves à cela. Tombez amoureux de quelqu’un et vous aurez une vision quasi divine de cette personne. Sortez de son emprise, cette personne se révèle différente. Pourtant elle n’a pas changé, seulement vous avez changé d’état d’esprit. Tout fonctionne de cette manière : ce n’est pas seulement que vous pouvez activement façonner votre monde de cette manière, c’est que vous le faites passivement, quoi qu’il arrive. 
@@ -65,30 +65,37 @@ Tout est relatif à un point de vue. Ainsi, il n’existe pas de <strong>bien</s
       C’est l’histoire d’un fermier qui possède un cheval. Un jour, le cheval s’enfuit. Les villageois s’ameutent à la maison du fermier pour lui remonter le moral. 
    </p>
    <p>
-      “Quelle malchance ! Ton seul cheval ! nouvelles sommes vraiment désolé pour cette perte, c’est si triste !”
+      <q class="etrange" id="etrange">
+      “Quelle malchance ! Ton seul cheval ! nouvelles sommes vraiment désolé pour cette perte, c’est si triste !” </q>
    </p>
-      Le fermier répond, <q>Est-ce un <strong class="bien">bien</strong>? Est-ce un <strong class="mal">mal</strong>? Je ne sais pas.</q>.
-      <p>
+   <p>
+      <q class="fermier" id="fermier">Le fermier répond,Est-ce un <strong class="bien">bien</strong>? Est-ce un <strong class="mal">mal</strong>? Je ne sais pas.</q>.
+   </p>
+   <p>
       Le jour suivant, le cheval revient avec sept magnifiques juments. Les villageois reviennent pour célébrer la bonne nouvelle.
    </p>
       <p>
-         <q>Quelle chance incroyable ! Avec huit chevaux, tu es un homme riche ! Tu dois être ravis de cette nouvelle !</q> 
+         <q class="etrange" id="etrange"> Quelle chance incroyable ! Avec huit chevaux, tu es un homme riche ! Tu dois être ravis de cette nouvelle !</q> 
       <p>
-      Le fermier répond, <q>Est-ce un <em class="bien">bien</em>? Est-ce un <em class="mal">mal</em>? Je ne sais pas.</q> </p>
+         <q class="fermier" id="fermier">
+      Le fermier répond,Est-ce un <em class="bien">bien</em>? Est-ce un <em class="mal">mal</em>? Je ne sais pas.</q> </p>
          <p>
       Le jour d’après, le fils du fermier s’occupe de l’entraînement des nouveaux chevaux. Mais l’un d’entre eux s’est révélé agressif; le garçon tombe et se casse la jambe. Les villageois reviennent.</p>
       <p>
-         <q>Pauvre enfant ! Nous sommes si désolé pour ce qui est arrivé ! Nous espérons qu’il s’en remettra bientôt, c’est tellement dommage…</q> </p>
+         <q class="etrange" id="etrange">Pauvre enfant ! Nous sommes si désolé pour ce qui est arrivé ! Nous espérons qu’il s’en remettra bientôt, c’est tellement dommage…</q> </p>
       <p>
-      Le fermier répond, <q>Est-ce un <strong class="bien">bien</strong>? Est-ce un <strong class="mal">mal</strong>? Je ne sais pas.</q></p>
+         <q class="fermier" id="fermier">
+      Le fermier répond,Est-ce un <strong class="bien">bien</strong>? Est-ce un <strong class="mal">mal</strong>? Je ne sais pas.</q></p>
 
       <p>
       Le quatrième jour, l’armée arrive au village à la recherche de nouvelles jeunes recrues. Grâce à sa jambe cassée, le fils du fermier échappe au recrutement. </p>
 
       <p>
-         <q>Quelle nouvelle incroyable ! Ton fils échappera à cette guerre sanglante, il vivra, à tes côtés ! Tu dois être tellement heureux, c’est fantastique !</q> </p>
+         <q class="etrange" id="etrange">Quelle nouvelle incroyable ! Ton fils échappera à cette guerre sanglante, il vivra, à tes côtés ! Tu dois être tellement heureux, c’est fantastique !</q> </p>
       <p>
-      Quand <em class="bien">bien</em> même, le fermier répond,<q>Est-ce un <strong class="bien">bien</strong>? Est-ce un <em class="mal">mal</em>? je ne sais pas. </q>
+         <q class="fermier" id="fermier">
+
+       <em class="bien">bien</em> même, le fermier répond,Est-ce un <strong class="bien">bien</strong>? Est-ce un <em class="mal">mal</em>? je ne sais pas. </q>
    </p>
 
                                                       <!--tableau-->
@@ -96,7 +103,7 @@ Tout est relatif à un point de vue. Ainsi, il n’existe pas de <strong>bien</s
       <caption>Evénement et <em class="bien">Bien</em> ou <strong class="mal">Mal</strong> </caption>
          <tr>             
                <th scope="col" class="Evénement">Evénement</th>
-               <th scope="col" class="Bien ou Mal"></th>
+               <th scope="col" class="Bien ou Mal"><em>Bien</em> ou <strong>Mal</strong> </th>
          </tr>
       <tr> 
          <td> Perdre son cheval </td>
@@ -119,7 +126,7 @@ Tout est relatif à un point de vue. Ainsi, il n’existe pas de <strong>bien</s
    <blockquote>
       <p>  
 Conclusion  
-Le <em class="bien">Bien</em> et le <strong class="mal"> Mal sont des valeurs culturelles et non naturelles. La banane est bonne pour le singe, le singe n'est pas bon pour la banane. N'en faisons donc pas un fromage... </p>
+Le <em class="bien">Bien</em> et le <strong class="mal"> Mal </strong> sont des valeurs culturelles et non naturelles. La banane est bonne pour le singe, le singe n'est pas bon pour la banane. N'en faisons donc pas un fromage... </p>
    </blockquote>
 
    <footer>

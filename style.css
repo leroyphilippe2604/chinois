@@ -1,3 +1,121 @@
+p{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	color:rgb( 221, 75, 16);
+	height: 150%;
+}	
+
 body{
-	color: #ff00b3;
+	font-size:100%;
+ 	font-family:georgia, serif; 
+	color: black;
+	line-height:2;
+	height: auto;
+	margin: 25px;
+	background: -webkit-linear-gradient(27deg, rgb(22, 237, 57), rgb(106, 33, 154));
+	background: linear-gradient(27deg, rgb(22, 237, 57), rgb(106, 33, 154));
+	background-image: url(https://static.nationalgeographic.fr/files/styles/image_3200/public/01-otter-trade-minden_00571407.jpg?w=1600&h=900);
+	position: bottom-right;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+blockquote {
+  max-width: 50%;
+  margin: 0,50,0,50;
+  height: 160%;
+  background-color: grey;
+  border-left: brown 3px solid ;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-style: italic;
+
+}
+
+.fermier {
+	border-left: #68d83b 1px solid;
+}
+
+.etrange {
+	border-left: #ff00b3 1px solid;
+}
+
+.bien{ text-transform: uppercase;
+	color:green;
+
+}
+
+.mal{
+	text-transform: uppercase;
+	color: red;
+}
+header {
+	background-color: yellow;
+}
+table{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 50%;
+}
+
+td{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 50%
+}
+
+th{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 50%
+}
+
+tr:nth-child(even) {
+    background: grey; 
+}
+
+tr:nth-child(odd) {
+    background: white
+}
+
+#bien {
+	background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-2.24/master/LearningPath/1.TheField/5.HTML-CSS/progressive-enhancement/bien.png?token=AQXSCYWAZWZBJGX34JFER3K7KYMKG);
+	padding-right: -150px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#mal{
+	background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-2.24/master/LearningPath/1.TheField/5.HTML-CSS/progressive-enhancement/mal.png?token=AQXSCYWADLFMRZJ6B5XDEPC7KYMKG);
+	padding-right: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#chat{
+	background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-2.24/master/LearningPath/1.TheField/5.HTML-CSS/progressive-enhancement/chat.png?token=AQXSCYXOZ3EGGMC4VSDFQ7S7KYMKG);
+	padding-right: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.premier{
+	font-weight: bold;
+}
+/* float a achever */
